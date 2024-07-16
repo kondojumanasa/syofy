@@ -1,39 +1,51 @@
 import styled from 'styled-components';
 
 
-export const Con=styled.div`
-background-color:red;
-width:300px;
+export const Con =styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F3F3F3;
+
 `
 
 export const Container = styled.div`
-  width: 300px;
-  height: 380px;
+  width: 30%;
+  height: 70%;
+  padding: 30px;
+  display: flex;
+  text-align:left;
+  flex-direction: column;
+  justify-content: center;
   background-image: url('https://i.pinimg.com/originals/dd/83/4c/dd834cfb415176eab272b42f668160ed.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
  `
 
 export const Heading=styled.h1` 
-font-family:roboto;
-font-size:30px;
+width: 360px;
+font-size:48px;
 font-wight:bold;
-text-align:center;
-color:white;
+text-align:left;
+line-height: 45px;
+color: #F7F7F7;
 `
 
 export const Paragraph=styled.p`
-font-family:roboto;
-font-size:10px;
-text-align:center;
-color:white;
-padding:5px;
+font-size: 15px;
+text-align:left;
+margin-top: -20px;
+color: #D1D1D1;
 `
 
 export const Content=styled.div`
 direction:flex;
 
 justify-content:center;
+ align-self: flex-start;
 padding-top:50px;
 `

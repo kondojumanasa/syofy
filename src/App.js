@@ -1,16 +1,20 @@
-import SignUp from './Components/SignUp';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, useHistory } from 'react-router-dom';
+import Dashboard from './Components/dashboard'
 import Home from './Components/Home'
 
-
-function App() {
-  return (
-    <div className='MainContainer'>
-   
-  <Home/>
-  <SignUp/>
-</div>
-  )
-}
+const App = () => {
+    return (
+        <Router>
+            <Routes>
+                 <Route path="/" element={<Home/>} />
+                {/* <Route path="/register" component={RegistrationForm} /> */}
+                <Route path="/dashboard" element={ <Dashboard/>} />
+               
+                {/* <Route path="/" component={RegistrationForm} /> */}
+            </Routes>
+        </Router>
+    );
+};
 
 export default App;
