@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 
+
 export const SignUpContainer=styled.div`
 
     height: 70%;
