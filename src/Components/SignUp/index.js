@@ -5,6 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import {SignUpContainer,Container,Title,Box,SmallTitle,Heading,Btn,Input,Span,Form , ErrorMessage} from './styledComponents';
 
 
+
+
 function SignUpForm(){
 
     const [isLogin, setIsLogin] = useState(false);
