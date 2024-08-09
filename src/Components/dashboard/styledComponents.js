@@ -6,6 +6,7 @@ export const Container = styled.div`
     height: 100vh;
 `;
 
+
 export const Navbar = styled.nav`
     display: flex;
     justify-content: space-around;
