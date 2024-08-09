@@ -10,6 +10,7 @@ import {
     Footer
 } from './styledComponents';
 
+
 const Dashboard = () => {
 
     const [userProfile, setUserProfile] = useState(null);
