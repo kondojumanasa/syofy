@@ -11,7 +11,7 @@ const App = () => {
                 {/* <Route path="/register" component={RegistrationForm} /> */}
                 <Route path="/dashboard" element={ <Dashboard/>} />
                
-                {/* <Route path="/" component={RegistrationForm} /> */}
+                {/* new update <Route path="/" component={RegistrationForm} /> */}
             </Routes>
         </Router>
     );
